@@ -154,7 +154,7 @@ var GenericDatasource = exports.GenericDatasource = function () {
           target: _this.templateSrv.replace(target.target, options.scopedVars, 'regex'),
           refId: target.refId,
           hide: target.hide,
-          type: target.type || 'timeserie'
+          type: target.type || 'timeseries'
         };
       });
 
